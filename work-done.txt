@@ -1,0 +1,1 @@
+1. Linkedlist -> singly-doubly done
