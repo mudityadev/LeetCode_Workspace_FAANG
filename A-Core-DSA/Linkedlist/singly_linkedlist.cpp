@@ -116,7 +116,6 @@ class Node{
                 prev = temp1;
                 temp1 = temp1->next;
             }            
-
             prev->next = temp1->next;
             delete temp1;
         }
