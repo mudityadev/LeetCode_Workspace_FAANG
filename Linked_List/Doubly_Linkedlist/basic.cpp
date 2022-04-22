@@ -34,6 +34,7 @@ class Node{
             head = newNode;
             return;
         }
+
         head->prev = newNode;
         newNode->next = head;
         head = newNode;
@@ -92,11 +93,11 @@ int main()
     ll.insert_at_head(1);
     ll.insert_at_head(2);
     ll.insert_at_head(3);
-    ll.insert_at_tail(4);
-    ll.insert_at_tail(5);
-    ll.insert_at_tail(6);
-    ll.insert_at_head(0);
+    // ll.insert_at_tail(4);
+    // ll.insert_at_tail(5);
+    // ll.insert_at_tail(6);
+    // ll.insert_at_head(0);
     ll.print();
-    ll.reverse_print();
+    // ll.reverse_print();
 
 }
