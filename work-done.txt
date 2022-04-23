@@ -1,2 +1,3 @@
 1. Linkedlist -> singly-doubly done
 2. Doubly and Circular Linkedlist
+3. stack and queue
