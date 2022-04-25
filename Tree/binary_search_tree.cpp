@@ -9,7 +9,16 @@
 
 // * Implementation -> Insertation and Search
 // * max and minimum
-// *
+// * find height
+
+// ! 1. Breath-first 
+//* '-> Level-order
+// * use queue 
+// * when you visit a node, insert into the queue of their children
+// ! 2. Depth-first
+// * '-> 1. Preorder  -> <root><left><right> 
+// * '-> 2. Inorder   -> <left><root><right> 
+// * '-> 3. Postorder -> <left><right><root>
 
 
 #include<bits/stdc++.h>
