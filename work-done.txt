@@ -2,15 +2,3 @@
 2. Doubly and Circular Linkedlist
 3. stack and queue
 
-// ! Header of Programs
-// * Topic            -> 
-// * Date             -> 
-// * Algorithm        ->
-// * Time Complexity  ->
-// * Space Complexity ->
-// * Explaination     -> 
-// *
-// *
-// *
-// *
-
