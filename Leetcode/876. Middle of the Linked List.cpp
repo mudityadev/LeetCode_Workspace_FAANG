@@ -1,3 +1,12 @@
+// * notes
+// * use 2 tortoise, fast and slow
+// * fast moves 2 times and slow moves 1 times at a time
+// * when fast = NULL
+// * slow tortoise is on middle element
+// *
+
+
+
 // * optimised one
 /**
  * Definition for singly-linked list.
