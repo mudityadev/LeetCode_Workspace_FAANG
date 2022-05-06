@@ -29,6 +29,18 @@ int main()
     m[1]++; // * 13 inc
     cout << m[1]; // * 13 output
 
-    
+    //* make a map
+    string s = "deeedbbcccbdaa";
+    //* input in map
+    map<char, int> mp;
+    for (int i = 0; i < s.length(); i++)
+    {
+        mp[s[i]]++;   
+    }
+    //* run a map
+    for (auto it = mp.begin(); it!=mp.end(); it++)
+    {
+        cout << it->first << " " << it->second << endl; 
+    }
 
 }
