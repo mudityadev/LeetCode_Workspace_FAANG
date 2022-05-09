@@ -43,4 +43,8 @@ int main()
         cout << it->first << " " << it->second << endl; 
     }
 
+    //* convert any string to a number
+    cout << '7' - '0' << " "; // converting 7 in char to int by - '0'
+    
+
 }
