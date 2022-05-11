@@ -46,5 +46,5 @@ int main()
     //* convert any string to a number
     cout << '7' - '0' << " "; // converting 7 in char to int by - '0'
     
-
+     unordered_set<int> m(nums1.begin(), nums1.end());
 }
