@@ -1,19 +1,20 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<iostream>
+#include<string>
 
-bool isAnagram(string s, string t) {
-        
-}
+using namespace std;
 
 int main()
 {
-    string s = "anagram";
-    string t = "nagaram";
 
-    if(isAnagram(s,t)){
-        cout << "YES";
-    } 
-    else{
-        cout << "NO";
-    }
+// * increase the speed for IO
+    cin.tie(0);
+    ios_base::sync_with_stdio(false);
+
+    int a;
+    cin>>a;
+    int b,c;
+    cin>>b>>c;
+    string s;
+    cin>>s;
+    cout << (a+b+c) << " " << s << endl;
 }

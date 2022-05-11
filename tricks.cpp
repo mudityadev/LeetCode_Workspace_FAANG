@@ -47,4 +47,8 @@ int main()
     cout << '7' - '0' << " "; // converting 7 in char to int by - '0'
     
      unordered_set<int> m(nums1.begin(), nums1.end());
+
+    // * increase the speed for IO
+    cin.tie(0);
+    ios_base::sync_with_stdio(false);
 }
