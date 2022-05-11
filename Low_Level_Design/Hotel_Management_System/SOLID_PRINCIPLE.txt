@@ -1,0 +1,18 @@
+SOLID Principle
+1. Single Responsibility Principle
+-> one class = one use only
+-> a class should have only one and one reason to change
+
+2. Open/Closed Principle (OCP)
+-> open for extension (adding new object or function)
+-> close for modification of core function
+
+3. Liskov Substitution Principle(LSP)
+-> objects of a superclass shall be replaceable with objects of its subclasses without breaking the application
+
+4. Interface Segregation Principle(ISP)
+-> 2 classes talk -> smallest possible one interface should be define
+
+5. Dependency Inversion 
+-> depend on abstraction
+-> not on concrete classes

@@ -1,0 +1,29 @@
+2 types
+1. component -> have noun
+2. action    -> ing. like working or searching etc
+
+
+requirements
+1. the system support different rooms -> standard, delux (component -> classes)
+2. guest search and book room (action)
+3. user can cancel the room  (actor -> user)
+4. maintain house keeping logs (actor -> housekeeper)
+5. receptionist should be able to check in/out a guest
+
+ACTORS:
+1. Guest
+2. Receptionist
+3. Admin
+4. Server
+5. HouseKeeper
+
+UseCases:
+1. Add/Remove/Edit -> Room
+2. Search Room
+3. Book room
+4. cancel
+5. check in
+6. check out
+7. add room change
+8. update housekeeping logs
+
