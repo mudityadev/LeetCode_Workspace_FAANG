@@ -46,26 +46,7 @@ vi g[N];
 int a[N];
 
 void solve() {
-    long long n;
-    ll mini = n/6;
-    ll maxi = n/4;
-    if(n==0){
-      cout << -1 << endl;
-    }
-    else if(1 <= mini && mini < maxi){
-        cout << mini << " " << maxi << endl;
-    }else{
-       ll res = n - 4;
-       if(n == 4){
-           cout << 1 << " " << 1 << endl;
-       } else if(res%2==0){
-           cout << 1 << " " << 1 << endl;
-       }
-       else {
-           cout << -1 << endl;
-       }
-   
-    }
+    int i, j, n, k;
 }
 
 int main() {
@@ -108,3 +89,7 @@ void dfs(int u, int par){
 		dfs(v, u);
 	}
 }
+
+
+
+
