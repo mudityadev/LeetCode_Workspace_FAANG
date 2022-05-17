@@ -54,4 +54,6 @@ int main()
     // * increase the speed for IO
     cin.tie(0);
     ios_base::sync_with_stdio(false);
+
+    int pow = (int) Math.pow(10, k);
 }
