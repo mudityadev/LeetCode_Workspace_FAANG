@@ -54,24 +54,27 @@ double eps = 1e-12;
  
 
 void solve(){
-    // ll t = 1;
-    // cin >> t;
-    // while(t--) {
-        
-    // }
-
     ll n;
     cin>>n;
-    cout << n <<" ";
-    while(n!=1){
-        if(n&1){
-            n = (n*3)+1;
-        }
-        else{
-            n /=2;
-        }
-        cout << n << " ";
+    vi v;
+    ll x;
+    for (ll i = 0; i < n-1; i++)
+    {
+        cin>>x;
+        v.push_back(x);
     }
+
+    sort(v.begin(), v.end());
+
+    
+
+    for (ll i = 0; i < n-2; i++)
+    {
+        if(v[i+1] - v[i] != 1 && v[i+1] != v[i] && v.size()!=1)
+            cout << v[i]+1 << endl;
+    }
+    
+    
 }
 
 int main()

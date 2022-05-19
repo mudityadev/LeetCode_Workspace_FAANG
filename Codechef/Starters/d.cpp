@@ -54,23 +54,23 @@ double eps = 1e-12;
  
 
 void solve(){
-    // ll t = 1;
-    // cin >> t;
-    // while(t--) {
-        
-    // }
+    ll t = 1;
+    cin >> t;
+    while(t--) {
+        int x, y;
+        cin>>x>>y;
+        int a = 500 - (x*2);
+        int b = 1000 - ((x+y)*4);
 
-    ll n;
-    cin>>n;
-    cout << n <<" ";
-    while(n!=1){
-        if(n&1){
-            n = (n*3)+1;
-        }
-        else{
-            n /=2;
-        }
-        cout << n << " ";
+        int t1 = a+b;
+
+        int a1 = 1000 - (y*4);
+        int b1 = 500 - ((x+y)*2);
+        int t2 = a1+b1;
+
+        int maxi = max(t1,t2);
+        cout << maxi << endl;
+
     }
 }
 

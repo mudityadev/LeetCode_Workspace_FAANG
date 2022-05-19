@@ -54,23 +54,20 @@ double eps = 1e-12;
  
 
 void solve(){
-    // ll t = 1;
-    // cin >> t;
-    // while(t--) {
-        
-    // }
-
-    ll n;
-    cin>>n;
-    cout << n <<" ";
-    while(n!=1){
-        if(n&1){
-            n = (n*3)+1;
-        }
+    ll t = 1;
+    cin >> t;
+    while(t--) {
+        int x,y;
+        cin>>x>>y;
+        int count = 0;
+        if(x == y || y < x) cout << 0 << endl;
         else{
-            n /=2;
+            while(x<y){
+                x +=8;
+                count++;
+            }
+            cout << count << endl;
         }
-        cout << n << " ";
     }
 }
 

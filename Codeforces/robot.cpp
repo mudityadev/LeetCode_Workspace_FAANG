@@ -54,23 +54,17 @@ double eps = 1e-12;
  
 
 void solve(){
-    // ll t = 1;
-    // cin >> t;
-    // while(t--) {
-        
-    // }
+    ll t = 1;
+    cin >> t;
+    while(t--) {
+        int n,m;
+        cin>>n>>m;
+        int field[n][m];
+        string loc;
+        cin>>loc;
 
-    ll n;
-    cin>>n;
-    cout << n <<" ";
-    while(n!=1){
-        if(n&1){
-            n = (n*3)+1;
-        }
-        else{
-            n /=2;
-        }
-        cout << n << " ";
+        
+
     }
 }
 

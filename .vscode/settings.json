@@ -5,6 +5,7 @@
         "ostream": "cpp",
         "valarray": "cpp",
         "chrono": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "string": "cpp"
     }
 }
