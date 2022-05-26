@@ -2,7 +2,10 @@ Steps - 7
 
 -> Step 1: Requirements clarifications
 
-Always ask questions to find the exact scope of the problem you’re solving. Design questions are mostly open-ended, and they don’t have ONE correct answer, that’s why clarifying ambiguities early in the interview becomes critical. Candidates who spend enough time to define the end goals of the system, always have a better chance to be successful in the interview. Also, since you only have 35-40 minutes to design a (supposedly) large system, you should clarify what parts of the system you would be focusing on.
+Always ask questions to find the exact scope of the problem you’re solving. Design questions are mostly open-ended, and 
+they don’t have ONE correct answer, that’s why clarifying ambiguities early in the interview becomes critical. 
+Candidates who spend enough time to define the end goals of the system, always have a better chance to be successful in the interview. 
+Also, since you only have 35-40 minutes to design a (supposedly) large system, you should clarify what parts of the system you would be focusing on.
 
 Under each step, we’ll try to give examples of different design considerations for developing a Twitter-like service.
 

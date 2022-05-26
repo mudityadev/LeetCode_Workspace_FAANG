@@ -19,7 +19,7 @@
 #include <stack>
 #include <iomanip>
 #include <fstream>
-
+ 
 using namespace std;
  
 typedef long long ll;
@@ -57,35 +57,26 @@ void solve(){
     ll t = 1;
     cin >> t;
     while(t--) {
-        int x;
-        int n;
-        cin>>n;
-        vi a;
+        int n;cin>>n;
+        int a[n];
+        int sum = 0;
         for (int i = 0; i < n; i++)
         {
-            cin>>x;
-            a.push_back(x);
+            cin>>a[i];
+            sum+=a[i];
         }
-        int m;
-        cin>>m;
-        vi b;
-        for (int i = 0; i < m; i++)
-        {
-            cin>>x;
-            b.push_back(x);
-        }
-        
 
-        int s = 0;
         for (int i = 0; i < n; i++)
         {
-            s += b[i];
+            if((sum-a[i])==a[i]*(n-1)){
+                cout <<"YES\n";
+                return;
+            }
         }
         
-        if()
-
-        s = s%n;
-        cout << a[s] << "\n";
+        cout <<"NO\n";
+        
+        
     }
 }
 
