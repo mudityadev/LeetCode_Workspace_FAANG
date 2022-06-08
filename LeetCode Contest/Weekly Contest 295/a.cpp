@@ -10,7 +10,7 @@ int rearrangeCharacters(string s, string target) {
     {
         mp[s[i]]++;
     }
-
+    
     for (int i = 0; i < s.size(); i++)
     {
         if(mp[target[i]] < 0){
