@@ -25,6 +25,9 @@ int knapsack(vector<int> wt, vector<int> val, int capacity, int n){
     else if(wt[n-1]>capacity){
         return dp[n][capacity] = knapsack(wt, val, capacity, n-1);
     }
+
+
+    
 }
 
 
@@ -37,6 +40,5 @@ int main()
     int n = wt.size();
 
     cout << knapsack(wt, val, capacity, n) << " ";
-
 
 }
