@@ -68,7 +68,7 @@ bool equalSumPartition(vector<int> v){
 int main()
 {
    // check the equal sum partition
-    vector<int> v = {1,5,11,};
+    vector<int> v = {1,5,11};
 
     if(equalSumPartition(v)){
         cout <<"YES, we can do it \n";

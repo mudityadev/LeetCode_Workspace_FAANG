@@ -3,22 +3,6 @@ using namespace std;
 #define ll long long
 #define vi vector<ll>
 
-printVec(auto v){
-    cout <<"\n Print 2D array = \n";
-    for (int i = 0; i < v.size(); i++)
-    {
-        cout << i << " | ";
-        for (int j = 0; j < v[i].size(); j++)
-        {
-            // cout << j;
-            cout  << v[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    
-}
-
-
 int countSubSetSum(vector<int> v, int sum){
     // initization t[n+1][sum+1]
     vector<vector<int>> t(v.size()+1, vector<int>(sum+1));
@@ -41,16 +25,30 @@ int countSubSetSum(vector<int> v, int sum){
         
     }
     
-    // printVec(t);
-    printVec(t);
-    
     return t[v.size()][sum];
 }
 
 
+int countSubSetSumGivenDiff(vector<int> nums, int diff){
+    int sum = 0;
+    for(auto x : nums) {
+        sum+=x;
+    }
+
+    int s1 = (diff+sum)/2;
+
+    return countSubSetSum(nums, s1);
+
+}
+
+
+
+
 int main()
 {
-    vector<int> v{2,3,4,5,8,10};
-    int sum = 10;
-    cout << countSubSetSum(v,sum) << " ";
+    vector<int> v{1,1,2,3};
+    int diff = 1; 
+    // out - 3
+    cout << countSubSetSumGivenDiff(v, diff) << " ";
+
 }
