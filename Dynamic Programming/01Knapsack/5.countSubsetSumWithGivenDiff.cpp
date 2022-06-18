@@ -36,9 +36,7 @@ int countSubSetSumGivenDiff(vector<int> nums, int diff){
     }
 
     int s1 = (diff+sum)/2;
-
     return countSubSetSum(nums, s1);
-
 }
 
 
