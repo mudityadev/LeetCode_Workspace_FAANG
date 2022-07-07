@@ -1,4 +1,0 @@
-1. check if BT is BST?
-2. preorder, in and post using stack.
-3. preorder, in and post without stack
-3. delete a node

@@ -1,19 +1,17 @@
-// * Graphs -> graph G is an ordered pair of set V of vertices and a set E of edges
-// * vertices = nodes
-// * G = (V, E)
-// * Edges :
-// * 1 . directed   A--->B  (one way)
-// * 2 . undirected A<--->B (two way)
-// * Weighted vs Unwighted (cost of edges)
-// * 
-// * 
-// * 
-// * 
-// * 
-// * 
+// Graph
+// ? Type of graph
+// 1. Undirected Graph u-v
+// 2. Directed Graph u->v
+
+// 
+1. Adjacency Matrix
+2. Adjacency List
+3. Adjacency Set
 
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long
+#define vi vector<ll>
 
 int main()
 {

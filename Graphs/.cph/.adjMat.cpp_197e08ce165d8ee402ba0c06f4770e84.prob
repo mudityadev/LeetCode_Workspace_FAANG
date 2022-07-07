@@ -1,0 +1,1 @@
+{"name":"Local: adjMat","url":"c:\\Users\\Google Prep Oct 22\\Desktop\\Leetcode Preparation\\Graphs\\adjMat.cpp","tests":[{"id":1657168097714,"input":"3 3\n1 2\n2 3\n1 3\n1 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Google Prep Oct 22\\Desktop\\Leetcode Preparation\\Graphs\\adjMat.cpp","group":"local","local":true}
